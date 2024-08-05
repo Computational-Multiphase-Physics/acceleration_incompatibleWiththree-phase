@@ -13,6 +13,8 @@ testGravity_Withreduced
 */testGravity_Withreduced
 testGravity_noreduced
 */testGravity_noreduced
+Video_Withreduced
+Video_Noreduced
 
 # makefile related
 *.tst

@@ -99,7 +99,7 @@ int main(int argc, char const *argv[]) {
 event acceleration(i++){
   face vector av = a;
   foreach_face(x){
-    av.x[] += Bond;
+    av.x[] -= Bond;
   }
 }
 

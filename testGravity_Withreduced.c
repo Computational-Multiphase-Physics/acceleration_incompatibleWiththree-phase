@@ -86,8 +86,8 @@ int main(int argc, char const *argv[]) {
   // cytoplasm
   rho3 = 1e0; mu3 = Ohc; G3 = 0.;
 
-  Bf1.x = Bond;
-  Bf2.x = Bond;
+  Bf1.x = -Bond;
+  Bf2.x = -Bond;
 
   f1.sigma = 1e0; // drop-cytoplasm interfacial tension
   f2.sigma = 1e0; // hypha-cytoplasm interfacial tension
