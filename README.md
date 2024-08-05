@@ -44,20 +44,8 @@ Use [src-local/reduced-three-phase-nonCoalescing.h](src-local/reduced-three-phas
 
 ### Left: acceleration method and Right: reduced gravity approach
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="flex: 1; margin-right: 10px;">
-    <video width="100%" controls>
-      <source src="Video_Noreduced.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <div style="flex: 1; margin-left: 10px;">
-    <video width="100%" controls>
-      <source src="Video_Withreduced.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
+![acceleration method](Video_Noreduced.gif)
+![reduced gravity approach](Video_Withreduced.gif)
 
 The drop at the center (blue) should have gone up as it is lighter than the surrounding and gravity is downwards. The video on the right is the correct implementation.
 
