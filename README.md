@@ -56,3 +56,9 @@ Aug 5, 2024
 In theory, codes [testGravity_noreduced.c](testGravity_noreduced.c) and [testGravity_Withreduced.c](testGravity_Withreduced.c). Exactly what part of the code is responsible for the bug is not clear. More investigation is needed.
 
 **Note:** Although the code has elasticity (becuase I am unsure if the bug is a three-phase bug or a elastic bug--that will be the first thing to check), the elastic modulus (set by the elasto-capillary number $Ec$) is set to zero.
+
+Aug 10, 2024
+
+This seems to be an issue with ``periodic" boundary condition. 
+
+See: https://github.com/Computational-Multiphase-Physics/acceleration_incompatibleWiththree-phase/issues/1
